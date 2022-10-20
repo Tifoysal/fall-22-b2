@@ -8,6 +8,16 @@ class HomeController extends Controller
 {
     public function home()
     {
-        return view('welcome');
+        return view('backend.pages.dashboard');
+    }
+
+    public function aboutUs()
+    {
+        return view('backend.pages.about');
+    }
+
+    public function contactUs()
+    {
+     return view('backend.pages.contact');
     }
 }
