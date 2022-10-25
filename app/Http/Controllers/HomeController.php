@@ -8,7 +8,8 @@ class HomeController extends Controller
 {
     public function home()
     {
-        return view('backend.pages.dashboard');
+        $name=now();
+        return view('backend.pages.dashboard',compact('name'));
     }
 
     public function aboutUs()

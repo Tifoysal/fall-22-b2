@@ -82,7 +82,7 @@
 
 
     <!-- Custom styles for this template -->
-    <link href="https://getbootstrap.com/docs/5.2/examples/dashboard/dashboard.css" rel="stylesheet">
+    <link href="{{url('/backend/css/dashboard.css')}}" rel="stylesheet">
 </head>
 <body>
 
